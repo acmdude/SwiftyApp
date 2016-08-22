@@ -4,7 +4,7 @@
 //
 //  Created by Angelo Micheletti on 8/21/16.
 //  Copyright © 2016 Angelo Micheletti. All rights reserved.
-//
+//  Some changes to check out Github
 
 import UIKit
 
