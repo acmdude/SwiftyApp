@@ -13,14 +13,24 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var theLabel: UILabel!
     
+    var tapCount = 0
+    
     @IBAction func buttonTspped(_ sender: AnyObject) {
         
         theLabel.text = "Bad Ass"
         print("button was tapped")
         
+        tapCount = tapCount + 1
+        if tapCount >= 10 {
+            theLabel.text = "Button tapped 10 times"
+        }
         
-        
+    
     }
+        
+        
+        
+    
     
     
     override func viewDidLoad() {
